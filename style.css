@@ -105,12 +105,17 @@ a{
 }
 .aboutMe{
     padding-top:10px; 
-    width:48%;
+    width:50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /*margin-left: 10px;*/
+    background-color: white;
+}
+.aboutMe .pageHeader, .description{
     margin-left: 10px;
 }
+
 .pageHeader{
     /*color: #cf3535;*/
     color: #3c4859;
@@ -163,15 +168,20 @@ a{
 }
 .contact{
     padding-top:10px;
-    width:48%;
+    width:50%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #172130;
+}
+.contact .pageHeader{
+    color:white;
 }
 .contact .description{
     text-align: center;
+    color: white;
 }
 .description img{
     margin-top:20px;
