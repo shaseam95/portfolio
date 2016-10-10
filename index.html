@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shaseam Islam E-Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="bxslider/jquery.bxslider.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <script src="bxslider/jquery.bxslider.min.js"></script>
+    </head>
+    <body>
+        <!--INTRODUCTION SECTION-->
+        <div class="intro">
+            <div class="header">
+                <div class="border">
+                    <span class="name">SHASEAM ISLAM</span><br>
+                    <span class="subHeader">E-PORTFOLIO</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <a class="aboutmeBtn" href="#">ABOUT ME</a>
+                <a class="workBtn" href="#">PROJECTS</a>
+            </div>
+        </div>
+        <!--ABOUT ME-->
+        <div class="page2">
+            <div class="aboutMe">
+               <span class="pageHeader">ABOUT ME</span>
+               <br><br>
+               <span class="description">
+                    Welcome to my e-portfolio. My name is Shaseam Islam. I have recently graduated from Kingston University, where I studied Computer Science. I am extremely passionate about front-end development and enjoy designing graphical user interfaces. I am always eager to learn new things and want to expand my software development skills.
+                    <br><br>
+                    This e-portfolio will show some of the projects I have worked on at university and projects outside of university.
+                </span>
+                <br><br>
+                <span class="pageHeader">SKILLS</span>
+                <br><br>
+                <div class="skills">
+                    <div class="aboutMeSkils">
+                        HTML
+                    </div>
+                    <div class="aboutMeSkils">
+                        CSS
+                    </div>
+                    <div class="aboutMeSkils">
+                        JavaScript
+                    </div>
+                    <div class="aboutMeSkils">
+                        Basic Java
+                    </div>
+                    <div class="aboutMeSkils">
+                        PHP
+                    </div>
+                    <div class="aboutMeSkils">
+                        MySQL
+                    </div>
+                    <div class="aboutMeSkils">
+                        PhotoShop
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+               <span class="pageHeader">CONTACT ME</span>
+               <br><br>
+               <span class='description'>
+                    EMAIL: shaseam.islam@gmail.com
+                    </span>
+                    <span class='description'>
+                    <br><br>
+                   <a href="https://uk.linkedin.com/in/shaseam-islam-730383120">
+                     <img src="linkedin-icon.png" style="width: 30px; height: 30px" class="linkedinBtn" onmouseover="this.src='img/linkedin-iconhover.png';" onmouseout="this.src='img/linkedin-icon.png';"></a>
+                </span>
+            </div>
+        </div>
+        
+        <!--WORK-->
+        <div class="page3">
+            <div class="work">
+                <span class="pageHeader">PROJECTS</span>
+            </div>
+            <div class="workContainer">
+                <div class="thumbnail">
+                    <img src="thumbs/MDLOGO.png">
+                    <div class="thumbInfo">
+                        <span class="thumbHeader">THE MERROW DYNASTY</span>
+                        <div class="thumbBtn"><a id="mdVeiwBtn" class="thumbViewBtn">VIEW</a></div>
+                    </div>
+                </div>
+                
+                <div class="thumbnail">
+                    <img src="https://fairhill.gpsurgery.net/wp-content/uploads/sites/262/2016/08/KINGSTON-UNIVERSITY-LOGO.jpg">
+                    <div class="thumbInfo">
+                        <span class="thumbHeader">ACADEMIC WORK</span>
+                        <br><br>
+                        <div class="thumbBtn"><a id="acadVeiwBtn" class="thumbViewBtn">VIEW</a></div>
+                    </div>
+                </div>
+                
+                <div class="thumbnail">
+                    <img src="thumbs/FINAL_Logo2.png">
+                    <div class="thumbInfo">
+                        <span class="thumbHeader">TABS SPORTS CONDITIONING</span>
+                        <br><br>
+                        <div class="thumbBtn"><a id="tscVeiwBtn" class="thumbViewBtn">VIEW</a></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="page4">
+            <!--THE MERROW DYNASTY-->
+            <div id="merrowDynastyContainer">
+                <span class="pageHeader" style="color:white">THE MERROW DYNASTY</span>
+                <div class="p4Container">
+                    <p class="workText">
+                        Redesign of the original flash based website to HTML. Version 1 of the redesign was not responsive so it was updated to be responsive and suitable for mobile devices.<br><br>Technologies used to make this website were HTML, CSS, jQuery and Google Maps API.
+                    </p>
+                    <span class="thumbBtn"><a class="thumbViewBtn"  href="http://www.merrowdynasty.co.uk/">VIEW</a></span>
+                    <a class="prevVer" href="http://www.merrowdynasty.co.uk/oldwebsite/">Previous Version</a>
+                    <br>
+                    <span class="pageHeader" style="font-size:30px; color:white">WIREFRAMES</span>
+                    <ul class="bxslider" id="bxslider1">
+                        <li><img src="wireframes/merrowdynasty/home.png" /></li>
+                        <li><img src="wireframes/merrowdynasty/menu.png" /></li>
+                        <li><img src="wireframes/merrowdynasty/contactus.png" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="page4">
+            <div id="academicContainer">
+                <span class="pageHeader" style="color:white">ACADEMIC WORK</span>
+                <div class="p4Container">
+                    <p class="workText" style="text-align:center">
+                        This section showcases projects that I have created during my time at university.
+                    </p>
+                    <span class="pageHeader" style="color:white">BMW TABLET WEBSITE</span>
+                    <img src="bmw-prev.png" style="width:45%;margin:auto;display:block">
+                    <p class="workText">For my User Experience module at University, I designed a prototype tablet optimised version of the BMW website. I performed a usability test on the existing website following the CIF to discover issues to rectify in the redesign. One of the main issues found was that the website did not contain any product comparison tool, which made it difficult for users to compare the different car models. This was a new feature I implemented.</p>
+                    <p class="workText">The website was made using HTML, CSS, JavaScript and jQuery. Some images where edited in Photoshop to remove their backgrounds.<br>Grade awarded: 74%.</p>
+                    <span class="thumbBtn"><a class="thumbViewBtn" href="https://preview.c9users.io/shaseam95/uxbmw/index.html">VIEW</a></span>
+                    <span class="pageHeader" style="color:white">RESTAURANT ORDERING SYSTEM</span>
+                    <p class="workText">For this project I created a restaurant ordering system that digitalise the operations of processing orders in a restaurant in the form of a web application. The previous method of processing an order was paper based which had issues such as high long-term costs. The application is used to create, read, update and delete restaurant orders.</p>
+                    <p class="workText">The technologies used to create this were HTML, CSS, PHP, MySQL, PhpMyAdmin and jQuery.<br>Grade awarded: 60%.</p>
+                    <p class="workText">To access the application use the following login:<br>Username: admin<br>Password: adminpassword</p>
+                    <span class="thumbBtn"><a class="thumbViewBtn" href="http://studentnet.kingston.ac.uk/k1314497/fyp/">VIEW</a></span>
+                    <span class="pageHeader" style="font-size:30px;color:white">WIREFRAMES</span>
+                    <ul class="bxslider" id="bxslider2">
+                        <li><img src="wireframes/fyp/login.png" /></li>
+                        <li><img src="wireframes/fyp/ADMIN - HOME.jpg" /></li>
+                        <li><img src="wireframes/fyp/ADMIN - ALL ORDERS.png" /></li>
+                        <li><img src="wireframes/fyp/ADMIN - ALL ORDERS2.png" /></li>
+                        <li><img src="wireframes/fyp/ADMIN - MANAGE MENU.jpg" /></li>
+                        <li><img src="wireframes/fyp/ADMIN -ADD MENU.jpg" /></li>
+                        <li><img src="wireframes/fyp/WAITER - NEW ORDER.png" /></li>
+                        <li><img src="wireframes/fyp/WAITER - VIEW ORDERS.png" /></li>
+                        <li><img src="wireframes/fyp/WAITER - VIEW ORDERS 2.png" /></li>
+                        <li><img src="wireframes/fyp/KITCHEN - VIEW ORDERS.png" /></li>
+                        
+                    </ul>
+                    <span class="pageHeader" style="color:white">DIGITAL BUSINESS CROWD SOURCING PROJECT</span>
+                    <p class="workText">This was a group project where we had to create a hypothetical business to gain a investment and present our business on a website. My role for the web developing was to input the gathered information onto the website.<br><br>Grade awarded: 72%</p>
+                    <span class="thumbBtn"><a class="thumbViewBtn" href="http://richmondalake.github.io/DigitalBusiness/#">VIEW</a></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="page4">
+            <div id="tscContainer">
+                <span class="pageHeader" style="color:white">TABS SPORTS CONDITIONING</span>
+                <div class="p4Container">
+                    <p class="workText">
+                        Single page website for a personal trainer based in Guildford. Website is currently under construction. 
+                    </p>
+                    <!--<span class="thumbBtn"><a class="thumbViewBtn" href="">VIEW</a></span>-->
+                    <br>
+                    <span class="pageHeader" style="font-size:30px;color:white">WIREFRAMES</span>
+                    <ul class="bxslider" id="bxslider3">
+                        <li><img src="wireframes/tsc/WF1.png" /></li>
+                        <li><img src="wireframes/tsc/WF2.png" /></li>
+                        <li><img src="wireframes/tsc/WF3.png" /></li>
+                        <li><img src="wireframes/tsc/wf4.png" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
