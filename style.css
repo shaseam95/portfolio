@@ -18,6 +18,9 @@ a{
     /*background-color: #2b2b2b;*/
     /*background-color: white;*/
     background-color: #172130;
+    background-image: url("background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 100vh;
     position: relative;
 }
@@ -321,6 +324,14 @@ a{
     left:0;
 }
 #tscContainer{
+    display:none;
+    position: absolute;
+    background-color: #424b54;
+    /*margin:0;*/
+    right:0;
+    left:0;
+}
+#flContainer{
     display:none;
     position: absolute;
     background-color: #424b54;

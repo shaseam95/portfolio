@@ -42,6 +42,8 @@ $(document).ready(function(){
             $('#academicContainer').css("display", "none");
             $('.page4').css("display", "none");
             $('#tscContainer').css("display", "none");
+            $('.page4').css("display", "none");
+            $('#flContainer').css("display", "none");
             
             $('.page4').css("display", "block");
             $('#merrowDynastyContainer').css("display", "block");
@@ -76,6 +78,8 @@ $(document).ready(function(){
             $('#merrowDynastyContainer').css("display", "none");
             $('.page4').css("display", "none");
             $('#tscContainer').css("display", "none");
+            $('.page4').css("display", "none");
+            $('#flContainer').css("display", "none");
             
             $('.page4').css("display", "block");
             $('#academicContainer').css("display", "block");
@@ -93,10 +97,33 @@ $(document).ready(function(){
             $('#merrowDynastyContainer').css("display", "none");
             $('.page4').css("display", "none");
             $('#academicContainer').css("display", "none");
+            $('.page4').css("display", "none");
+            $('#flContainer').css("display", "none");
+            
             
             $('.page4').css("display", "block");
             $('#tscContainer').css("display", "block");
             $('#bxslider3').bxSlider({
+                slideWidth:700
+            });
+            $('html, body').animate({
+                scrollTop: $(".page4").offset().top - 57
+            }, 1500);
+            
+        })
+        
+        $('#flVeiwBtn').on('click', function() {
+            $('.page4').css("display", "none");
+            $('#merrowDynastyContainer').css("display", "none");
+            $('.page4').css("display", "none");
+            $('#academicContainer').css("display", "none");
+            $('.page4').css("display", "none");
+            $('#tscContainer').css("display", "none");
+            
+            
+            $('.page4').css("display", "block");
+            $('#flContainer').css("display", "block");
+            $('#bxslider4').bxSlider({
                 slideWidth:700
             });
             $('html, body').animate({
