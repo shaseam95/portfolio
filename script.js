@@ -44,6 +44,8 @@ $(document).ready(function(){
             $('#tscContainer').css("display", "none");
             $('.page4').css("display", "none");
             $('#flContainer').css("display", "none");
+            $('.page4').css("display", "none");
+            $('#cakeContainer').css("display", "none");
             
             $('.page4').css("display", "block");
             $('#merrowDynastyContainer').css("display", "block");
@@ -80,6 +82,8 @@ $(document).ready(function(){
             $('#tscContainer').css("display", "none");
             $('.page4').css("display", "none");
             $('#flContainer').css("display", "none");
+            $('.page4').css("display", "none");
+            $('#cakeContainer').css("display", "none");
             
             $('.page4').css("display", "block");
             $('#academicContainer').css("display", "block");
@@ -99,7 +103,8 @@ $(document).ready(function(){
             $('#academicContainer').css("display", "none");
             $('.page4').css("display", "none");
             $('#flContainer').css("display", "none");
-            
+            $('.page4').css("display", "none");
+            $('#cakeContainer').css("display", "none");
             
             $('.page4').css("display", "block");
             $('#tscContainer').css("display", "block");
@@ -119,11 +124,33 @@ $(document).ready(function(){
             $('#academicContainer').css("display", "none");
             $('.page4').css("display", "none");
             $('#tscContainer').css("display", "none");
-            
+            $('.page4').css("display", "none");
+            $('#cakeContainer').css("display", "none");
             
             $('.page4').css("display", "block");
             $('#flContainer').css("display", "block");
             $('#bxslider4').bxSlider({
+                slideWidth:700
+            });
+            $('html, body').animate({
+                scrollTop: $(".page4").offset().top - 57
+            }, 1500);
+            
+        })
+        
+        $('#cakeVeiwBtn').on('click', function() {
+            $('.page4').css("display", "none");
+            $('#merrowDynastyContainer').css("display", "none");
+            $('.page4').css("display", "none");
+            $('#academicContainer').css("display", "none");
+            $('.page4').css("display", "none");
+            $('#tscContainer').css("display", "none");
+            $('.page4').css("display", "none");
+            $('#flContainer').css("display", "none");
+            
+            $('.page4').css("display", "block");
+            $('#cakeContainer').css("display", "block");
+            $('#bxslider5').bxSlider({
                 slideWidth:700
             });
             $('html, body').animate({

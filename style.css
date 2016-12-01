@@ -339,6 +339,14 @@ a{
     right:0;
     left:0;
 }
+#cakeContainer{
+    display:none;
+    position: absolute;
+    background-color: #424b54;
+    /*margin:0;*/
+    right:0;
+    left:0;
+}
 .page4 .pageHeader{
     text-align: center;
     display: block;
